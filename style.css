@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+         
+    
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+  }
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+ @media (max-width:1700px) {
+    .outer-box{
+        
+        height: 100%;
+        width: 50%;
+        margin-left: 25%;
+
+        background-color: white;
+        border: solid 10px white;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+    
+    img {
+        height: 25%;
+        width: 90%;
+        padding-left: 4%;
+        padding-right: 3%;
+        padding-top: 3%;
+        
+        border-radius: 35px;
+    }
+    
+    
+    .prep {
+        
+        width: 100%;
+        height:50%;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 10px;
+    }
+    .prep h3{
+        
+        color:rgb(135, 1, 135)
+
+    }
+    .prep1{
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+        
+    }
+
+    .nutrient {
+        display: flex;
+        justify-content:space-between;
+        padding: 5px 20px;
+      }
+      
+    .value {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+        padding-right: 50%;
+        
+        
+        
+      }
+      
+
+
+}
